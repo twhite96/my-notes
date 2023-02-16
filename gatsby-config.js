@@ -3,12 +3,13 @@ module.exports = {
     {
       resolve: `gatsby-theme-garden`,
       options: {
-        contentPath: `${__dirname}/content/garden`,
+        basePath: `/content`,
+        contentPath: `${__dirname}/dev-research`,
         rootNote: `/hello`,
       },
     },
   ],
   siteMetadata: {
-    title: `Site title`,
+    title: `tiff's notes`,
   },
 }
